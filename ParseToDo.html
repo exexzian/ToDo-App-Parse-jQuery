@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+
+	<title>Todo App Built on Parse</title>
+	<meta name="description" content="My Parse App">
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<script type="text/javascript" src="https://www.parse.com/downloads/javascript/parse-1.2.8.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<script src ="Lib/jquery.min.js"></script>
+	<script src="Lib/parse-1.2.8.min.js"></script>
+	
+</head>
+
+<body>
+	<h1> ToDo Task Lister Using <a href="http://www.parse.com" alt="Parse">Parse</a></h1>
+	<div id="main">
+		<div id="input-wrapper">
+			<input type="text" id="list-input" placeholder="Input Your Task...">
+			<input type="button" id="list-item-submit" value="Add"></button>
+		</div>
+		<div>
+			<h2 id="message">Incomplete Tasks</h2>
+			<ul id="incomplete-items">
+				<li id="no-incomplete-message">
+					
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<!-- This is a template that we'll be using to populate our list items -->
+	<div id="todo-items-template" >
+
+	</div>
+
+</body>
+
+<!--
+	app script loaded at the end so as to load the template faster 
+-->
+<script src="js/ToDo-jQuery-Parse.js"></script>
+
+</html>
