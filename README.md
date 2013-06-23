@@ -8,7 +8,8 @@ ToDo Task lister App using Parse as back-end. Safe and Effecient as data is stor
 ## Features
 - Parse as Back-End service Provider: Data saved on the cloud thus easy retrieval
 - Checks for empty input fields
+<hr>
 
-![ToDo-Parse-jQuery](/http://s20.postimg.org/7qh2xvzbx/todo_parse_jquery.png)
+![ToDo-Parse-jQuery](http://s20.postimg.org/kj56xtaxp/todo_parse_jquery.png)
 
 
