@@ -1,8 +1,18 @@
+body {
+	background-image: url('background.png');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center;
+	font-family: "HelveticaNeue-Light", sans-serif;
+	font-weight: 300;
+	text-align: center;#background-color: #b3b080;
+	padding: 0 25px;
+}
+
 #main h1 {
   margin-top: 0;
 	font-size: 35px;
 }
-
 
 h2 {
 	text-decoration: underline;
